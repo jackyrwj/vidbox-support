@@ -2,23 +2,247 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Breezecut</title>
-<style>
-  :root { --fg:#09090b; --muted:#71717a; --border:#e4e4e7; --bg:#fff; }
-  @media (prefers-color-scheme: dark) { :root { --fg:#fafafa; --muted:#a1a1aa; --border:#27272a; --bg:#09090b; } }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; max-width: 680px; margin: 0 auto; padding: 32px 16px 48px; line-height: 1.7; color: var(--fg); background: var(--bg); }
-  h1 { font-size: 1.6em; margin: 0 0 4px; letter-spacing: -0.02em; }
-  h2 { font-size: 1.05em; margin-top: 2em; padding-top: 1.2em; border-top: 1px solid var(--border); }
-  p, li { margin: .6em 0; } ul { padding-left: 1.2em; }
-  .muted { color: var(--muted); font-size: .9em; }
-  a { color: var(--fg); text-underline-offset: 3px; }
-  nav a { display:inline-block; margin: 0 12px 0 0; }
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Breezecut — 30+ video tools in one iPhone app</title>
+<meta name="description" content="Compress, enhance, auto subtitles, face blur, resize, add music and more. 30+ everyday video tools in one iPhone app, all on your device. No uploads, no watermark, no ads.">
+<link rel="canonical" href="https://jackyrwj.github.io/vidbox-support/en/">
+<link rel="alternate" hreflang="zh-Hans" href="https://jackyrwj.github.io/vidbox-support/">
+<link rel="alternate" hreflang="en" href="https://jackyrwj.github.io/vidbox-support/en/">
+<link rel="alternate" hreflang="x-default" href="https://jackyrwj.github.io/vidbox-support/en/">
+<meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)">
+<meta name="apple-itunes-app" content="app-id=6820107160">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Breezecut">
+<meta property="og:title" content="Breezecut — 30+ video tools in one app">
+<meta property="og:description" content="Compress, enhance, subtitles, face blur, resize, add music… all on your iPhone. Nothing is uploaded, no watermark, no ads.">
+<meta property="og:url" content="https://jackyrwj.github.io/vidbox-support/en/">
+<meta property="og:image" content="https://jackyrwj.github.io/vidbox-support/assets/og-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "name": "Breezecut",
+      "alternateName": "微风剪辑",
+      "operatingSystem": "iOS 18+",
+      "applicationCategory": "PhotoAndVideoApplication",
+      "url": "https://jackyrwj.github.io/vidbox-support/en/",
+      "downloadUrl": "https://apps.apple.com/app/id6820107160",
+      "image": "https://jackyrwj.github.io/vidbox-support/assets/icon-256.png",
+      "description": "Compress, enhance, auto subtitles, face blur, resize, add music and more. 30+ everyday video tools in one iPhone app, all on your device. No uploads, no watermark, no ads.",
+      "inLanguage": [
+        "zh-Hans",
+        "en"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does Breezecut cost anything?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The app is free to download, and most tools are free, unlimited and watermark-free. Face Blur, Device Mockup, Split Screen, Text & Stickers, Live Photo, Photo Slideshow and burning subtitles into video are Pro, each with one free try. Pro is available monthly, yearly, or as a one-time lifetime purchase."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are my videos uploaded?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Everything runs on your iPhone, including speech recognition and enhancement. There is no account and no analytics or ad SDK. The first time you recognise a language, iOS downloads its speech model itself; that step doesn't go through us."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do exported videos have a watermark?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Both free and Pro tools export without an app watermark, and there are no ads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which iOS version do I need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iOS 18 or later. Enhance uses a newer on-device AI model and needs iOS 26."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which languages do subtitles support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mandarin, Cantonese and English. You can edit each line and export an SRT file for free. Burning the subtitles into the video is Pro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I cancel or restore a purchase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To cancel, open Settings → Apple Account → Subscriptions on your iPhone and choose Breezecut. To restore, tap Settings at the top right of the Home screen, then Restore Purchases. Refunds are handled by Apple."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
-<h1>Breezecut</h1>
-<p class="muted">Everyday video tools, all on your iPhone</p>
-<nav><a href="privacy.html">Privacy Policy</a><a href="support.html">Support</a><a href="../">中文</a><a href="mailto:raowenjieszu@gmail.com">Contact</a></nav>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="Breezecut">
+      <img src="../assets/apple-touch-icon.png" alt="" width="34" height="34">
+      <span>Breezecut</span>
+    </a>
+    <nav class="nav" aria-label="Breezecut">
+      <a class="link" href="#features">Features</a><a class="link" href="#screens">Screenshots</a><a class="link" href="#pro">Pro</a><a class="link" href="#faq">FAQ</a>
+      <span class="lang" role="group" aria-label="Language">
+        <a href="../" hreflang="zh-Hans" lang="zh-Hans">中</a>
+        <a href="./" hreflang="en" lang="en" aria-current="page">EN</a>
+      </span>
+      <a class="top-cta" href="https://apps.apple.com/app/id6820107160">Get the app</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">iPhone · Video toolkit</span>
+        <h1 id="hero-title">30+ video tools, <em>one light app.</em></h1>
+        <p class="lede">Compress, enhance, auto subtitles, face blur, resize, add music… Everything runs on your iPhone. Nothing is uploaded, nothing gets a watermark, and there are no ads.</p>
+        <div class="cta"><a class="badge" href="https://apps.apple.com/app/id6820107160" aria-label="Download Breezecut on the App Store"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><span><small>Download on the</small><b>App Store</b></span></a><span class="cta-note">Free to download · No ads · No watermark</span></div>
+      </div>
+      <div class="fan" role="img" aria-label="Breezecut">
+        <img class="l" src="../assets/shots/en/03.webp" width="720" height="1564" alt="Auto subtitles from speech">
+        <img class="c" src="../assets/shots/en/01.webp" width="720" height="1564" alt="Overview of 30+ video tools" fetchpriority="high">
+        <img class="r" src="../assets/shots/en/02.webp" width="720" height="1564" alt="Enhance: make blurry videos sharp in one tap">
+      </div>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="stats-title">
+    <div class="wrap">
+      <p class="kicker">Why Breezecut</p>
+      <h2 id="stats-title">The small video jobs, all done in one place.</h2>
+      <p class="section-lede">Shrink a clip to send it, turn a landscape video vertical, caption a talking video, blur a passer-by. No need for a separate app for each.</p>
+      <div class="stats"><div class="stat"><b>30+</b><span>video tools, so you can stop installing a pile of apps</span></div><div class="stat"><b>0</b><span>uploads. Your videos and audio stay on your iPhone</span></div><div class="stat"><b>0</b><span>watermarks, on free and Pro tools alike</span></div></div>
+    </div>
+  </section>
+
+  <section id="features" aria-labelledby="features-title">
+    <div class="wrap">
+      <p class="kicker">What's inside</p>
+      <h2 id="features-title">The everyday tools, in one app.</h2>
+      <p class="section-lede">Every tool uses the same clean layout: pick a video, adjust a few settings, export. The preview matches the result.</p>
+      <div class="features"><article class="feature"><span class="mark" aria-hidden="true">C</span><h3>Compress &amp; Convert<span class="tag free">Free</span></h3><p>HEVC / H.264 presets with before and after sizes. Convert between MP4 and MOV.</p></article><article class="feature"><span class="mark" aria-hidden="true">E</span><h3>Enhance<span class="tag free">Free</span></h3><p>Remove noise and sharpen in one tap, upscaling up to 1080p. Uses the system's on-device AI model (needs iOS 26).</p></article><article class="feature"><span class="mark" aria-hidden="true">S</span><h3>Auto Subtitles<span class="tag mix">Some Pro</span></h3><p>Speech to subtitles in Mandarin, Cantonese and English. Edit line by line and export SRT for free; burning into the video is Pro.</p></article><article class="feature"><span class="mark" aria-hidden="true">T</span><h3>Filters, Text &amp; Stickers<span class="tag pro">Pro</span></h3><p>15 filter looks. Add text, images and stickers, then drag, resize and rotate each one with its own timing.</p></article><article class="feature"><span class="mark" aria-hidden="true">B</span><h3>Blur &amp; Watermark Removal<span class="tag mix">Some Pro</span></h3><p>Face Blur follows faces automatically (Pro). Box a watermark or logo and cover it with blur or surrounding picture.</p></article><article class="feature"><span class="mark" aria-hidden="true">M</span><h3>Mockup &amp; Live Photo<span class="tag pro">Pro</span></h3><p>Put a video in a phone, tablet or laptop frame. Turn a clip into a Live Photo for a moving lock screen.</p></article><article class="feature"><span class="mark" aria-hidden="true">A</span><h3>Audio Tools<span class="tag free">Free</span></h3><p>Add music with separate volume controls, extract or mute audio, make an iPhone ringtone, text to speech.</p></article><article class="feature"><span class="mark" aria-hidden="true">V</span><h3>Edit &amp; Resize<span class="tag mix">Some Pro</span></h3><p>Frame-accurate trim, speed 0.25–4×, reverse, merge with transitions, 9:16 / 1:1 / 16:9 canvas. Split Screen is Pro.</p></article></div>
+      <ul class="extras" aria-label="More tools"><li>GIF maker</li><li>Frame grab</li><li>Media info</li><li>Watermark</li><li>Timer</li><li>Chapter progress bar</li><li>Photo slideshow</li><li>Rotate &amp; flip</li><li>Fade in/out</li><li>Censor beep</li><li>Join audio</li><li>Format convert</li></ul>
+    </div>
+  </section>
+
+  <section id="screens" class="band" aria-labelledby="screens-title" style="padding-bottom: 40px">
+    <div class="wrap gallery-head">
+      <div>
+        <p class="kicker">Screenshots</p>
+        <h2 id="screens-title">A look inside.</h2>
+      </div>
+      <div class="arrows">
+        <button type="button" id="rail-prev" aria-label="Previous"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M8.5 2.5 4 7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button type="button" id="rail-next" aria-label="Next"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M5.5 2.5 10 7l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+    <div class="rail" id="rail" tabindex="0" role="region" aria-label="A look inside."><figure class="shot"><img src="../assets/shots/en/01.webp" width="720" height="1564" loading="lazy" alt="Breezecut：Overview of 30+ tools"><figcaption>Overview of 30+ tools</figcaption></figure><figure class="shot"><img src="../assets/shots/en/02.webp" width="720" height="1564" loading="lazy" alt="Breezecut：Enhance"><figcaption>Enhance</figcaption></figure><figure class="shot"><img src="../assets/shots/en/03.webp" width="720" height="1564" loading="lazy" alt="Breezecut：Auto subtitles"><figcaption>Auto subtitles</figcaption></figure><figure class="shot"><img src="../assets/shots/en/04.webp" width="720" height="1564" loading="lazy" alt="Breezecut：Filters"><figcaption>Filters</figcaption></figure><figure class="shot"><img src="../assets/shots/en/05.webp" width="720" height="1564" loading="lazy" alt="Breezecut：Text &amp; stickers"><figcaption>Text &amp; stickers</figcaption></figure><figure class="shot"><img src="../assets/shots/en/06.webp" width="720" height="1564" loading="lazy" alt="Breezecut：Speed"><figcaption>Speed</figcaption></figure><figure class="shot"><img src="../assets/shots/en/07.webp" width="720" height="1564" loading="lazy" alt="Breezecut：Live Photo"><figcaption>Live Photo</figcaption></figure><figure class="shot"><img src="../assets/shots/en/08.webp" width="720" height="1564" loading="lazy" alt="Breezecut：Device mockup"><figcaption>Device mockup</figcaption></figure><figure class="shot"><img src="../assets/shots/en/09.webp" width="720" height="1564" loading="lazy" alt="Breezecut：Watermark"><figcaption>Watermark</figcaption></figure></div>
+  </section>
+
+  <section aria-labelledby="privacy-title">
+    <div class="wrap privacy-grid">
+      <div>
+        <p class="kicker">Privacy</p>
+        <h2 id="privacy-title">Your videos stay on your phone.</h2>
+        <p class="section-lede">Breezecut has no account, no server, and no analytics or ad SDKs.</p>
+        <ul class="points" style="margin-top:26px"><li><span class="tick"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2.5 7.5 5.6 10.5 11.5 3.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>Everything runs on your iPhone</b><span>Compress, enhance, recognise and export, all with your phone's own power.</span></div></li><li><span class="tick"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2.5 7.5 5.6 10.5 11.5 3.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>No uploads, no data collected</b><span>The App Privacy label says “Data Not Collected”. Purchases are handled by Apple.</span></div></li><li><span class="tick"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2.5 7.5 5.6 10.5 11.5 3.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>No watermark on your videos</b><span>Free and Pro tools both export without an app watermark.</span></div></li></ul>
+      </div>
+      <div class="lock" aria-hidden="true">
+        <div class="big">🔒</div>
+        <p>Never touches a server</p>
+        <div class="flow"><b>Your video</b><span class="x">→</span><b>Breezecut</b><span class="x">→</span><b>Your Photos</b></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pro" class="band" aria-labelledby="pro-title">
+    <div class="wrap">
+      <p class="kicker">Pro</p>
+      <h2 id="pro-title">Most tools are free. A few advanced ones are Pro.</h2>
+      <p class="section-lede">Every Pro tool can be tried once for free, so you can decide after you see it work.</p>
+      <div class="plans">
+        <div class="plan">
+          <h3>Free</h3><p class="sub">Unlimited, no watermark</p>
+          <ul><li>Compress, merge, trim, speed, reverse</li><li>Enhance</li><li>Auto subtitles, line edits and SRT export</li><li>Resize canvas, filters, watermark</li><li>Remove watermark, timer, chapter bar</li><li>Add music, extract audio, ringtone, text to speech</li><li>GIF maker, frame grab, format convert</li></ul>
+        </div>
+        <div class="plan pro">
+          <h3>Pro</h3><p class="sub">Each tool: 1 free try</p>
+          <ul><li>Face Blur</li><li>Device Mockup</li><li>Split Screen</li><li>Text &amp; Stickers</li><li>Live Photo</li><li>Photo Slideshow</li><li>Burn subtitles into video</li></ul>
+          <div class="prices"><div class="price"><b>Monthly</b><span>Auto-renewing</span></div><div class="price"><b>Yearly</b><span>Auto-renewing</span></div><div class="price"><b>Lifetime</b><span>One-time purchase</span></div></div>
+        </div>
+      </div>
+      <p class="fine">Monthly and Yearly are auto-renewable subscriptions. Payment is charged to your Apple Account at confirmation of purchase, and renews automatically unless auto-renew is turned off at least 24 hours before the end of the current period. Manage or cancel in Settings → Apple Account → Subscriptions. Lifetime is a one-time purchase. Prices are shown in the App Store in your currency.</p>
+    </div>
+  </section>
+
+  <section id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <p class="kicker">FAQ</p>
+      <h2 id="faq-title">Questions you might have</h2>
+      <div class="faq"><details><summary>Does Breezecut cost anything?</summary><p>The app is free to download, and most tools are free, unlimited and watermark-free. Face Blur, Device Mockup, Split Screen, Text &amp; Stickers, Live Photo, Photo Slideshow and burning subtitles into video are Pro, each with one free try. Pro is available monthly, yearly, or as a one-time lifetime purchase.</p></details><details><summary>Are my videos uploaded?</summary><p>No. Everything runs on your iPhone, including speech recognition and enhancement. There is no account and no analytics or ad SDK. The first time you recognise a language, iOS downloads its speech model itself; that step doesn't go through us.</p></details><details><summary>Do exported videos have a watermark?</summary><p>No. Both free and Pro tools export without an app watermark, and there are no ads.</p></details><details><summary>Which iOS version do I need?</summary><p>iOS 18 or later. Enhance uses a newer on-device AI model and needs iOS 26.</p></details><details><summary>Which languages do subtitles support?</summary><p>Mandarin, Cantonese and English. You can edit each line and export an SRT file for free. Burning the subtitles into the video is Pro.</p></details><details><summary>How do I cancel or restore a purchase?</summary><p>To cancel, open Settings → Apple Account → Subscriptions on your iPhone and choose Breezecut. To restore, tap Settings at the top right of the Home screen, then Restore Purchases. Refunds are handled by Apple.</p></details></div>
+    </div>
+  </section>
+
+  <section class="band final" aria-labelledby="final-title">
+    <div class="wrap">
+      <img src="../assets/icon-256.png" alt="" width="92" height="92">
+      <h2 id="final-title">Give it a try.</h2>
+      <p class="section-lede" style="margin-inline:auto">Free to download, and most tools work right away.</p>
+      <div class="cta"><a class="badge" href="https://apps.apple.com/app/id6820107160" aria-label="Download Breezecut on the App Store"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><span><small>Download on the</small><b>App Store</b></span></a></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Breezecut</span>
+    <nav aria-label="Footer">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="support.html">Support</a>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (EULA)</a>
+      <a href="mailto:raowenjieszu@gmail.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+<script src="../assets/site.js" defer></script>
 </body>
 </html>
